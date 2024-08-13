@@ -104,8 +104,8 @@ public class Robot extends TimedRobot {
     }
 
     if (controller.getR1Button()) {
-      shooter1.set(0.2);
-      shooter2.set(-0.2);
+      shooter1.set(0.3);
+      shooter2.set(-0.3);
     }
     else {
       shooter1.set(0);
